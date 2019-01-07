@@ -34,14 +34,15 @@
               <div class="panel-body">
                 <form>
                   <div class="form-group">
-                    <ul class="list-group" id="filters">
-                      <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
-                      </li>
-                    </ul>
+                    <input class="form-control" id="datetime" type="text" placeholder="Date (mm/dd/yyyy)">
+                    <input class="form-control" id="city" type="text" placeholder="City Name">
+                    <input class="form-control" id="state" type="text" placeholder="State (i.e. MO)">
+                    <input class="form-control" id="country" type="text" placeholder="Country (i.e. US)">
+                    <input class="form-control" id="shape" type="text" placeholder="Shape (i.e. Circle)">
+                    <span class="form-group-btn">
+                      <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
+                    </span>
                   </div>
-                  <button id="filter-btn" type="submit" class="btn btn-default">Filter Table</button>
                 </form>
               </div>
             </div>
